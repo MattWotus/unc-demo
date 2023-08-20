@@ -77,6 +77,7 @@ body.appear {
 
 header {
   height: var(--nav-height);
+  display: none;
 }
 
 h1, h2, h3,
@@ -99,6 +100,10 @@ h6 { font-size: var(--heading-font-size-xs) }
 p, dl, ol, ul, pre, blockquote {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+main > div:nth-child(1) > div.default-content-wrapper > p {
+  margin-top: 0;
 }
 
 hr {
@@ -226,23 +231,6 @@ main img {
 .icon svg {
   height: 100%;
   width: 100%;
-}
-
-main .section {
-  padding: 64px 16px;
-}
-
-@media (min-width: 600px) {
-  main .section {
-    padding: 64px 32px;
-  }
-}
-
-@media (min-width: 900px) {
-  .section > div {
-    max-width: 1200px;
-    margin: auto;
-  }
 }
 
 /* section metadata */
