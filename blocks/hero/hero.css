@@ -1,17 +1,23 @@
 /* block specific CSS goes here */
 
-main .hero-container > div {
+main .hero-container>div {
   max-width: unset;
 }
-  
+
 main .hero-container {
   padding: 0;
 }
-  
+
 main .hero {
+  background-image: url(https://www.unc.edu/wp-content/uploads/2023/08/017322b_fdoc043-scaled.jpg);
+  height: 100vh;
+  min-height: 675px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  overflow: hidden;
   position: relative;
-  padding: 32px;
-  min-height: 300px;
 }
 
 main .hero h1 {
