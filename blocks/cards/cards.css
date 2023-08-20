@@ -1,4 +1,4 @@
-.cards > ul {
+.cards>ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
   grid-gap: 16px;
 }
 
-.cards > ul > li {
+.cards>ul>li {
   border: 1px solid var(--highlight-background-color);
   background-color: var(--background-color)
 }
@@ -20,12 +20,67 @@
   line-height: 0;
 }
 
-.cards .cards-card-body > *:first-child {
+.cards .cards-card-body>*:first-child {
   margin-top: 0;
 }
 
-.cards > ul > li img {
+.cards>ul>li img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+main>div:nth-child(3)>div.cards-wrapper>div>ul {
+  padding: 0 4.1666666667%;
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+main>div:nth-child(3)>div.cards-wrapper>div>ul>li {
+  margin: 0 4.5454545455% 50px 0;
+  width: 27.2727272727%;
+  align-items: center;
+  border: 1px solid #e1e1e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+main>div:nth-child(3)>div.cards-wrapper>div>ul>li:nth-child(1) {
+  margin: 0 4.5454545455% 50px 4.5454545455%;
+}
+
+main>div:nth-child(3)>div.cards-wrapper>div>ul div.cards-card-image>picture>img {
+  aspect-ratio: inherit;
+}
+
+main>div:nth-child(3)>div.cards-wrapper>div>ul div.cards-card-body {
+  flex-grow: 1;
+  margin: 0;
+  padding: 30px 38px;
+  text-align: center;
+}
+
+main>div:nth-child(3)>div.cards-wrapper>div>ul div.cards-card-body>p.button-container {
+  font-family: franklin-gothic-urw-cond, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+body>main>div:nth-child(3)>div.cards-wrapper>div>ul div.cards-card-body>p:nth-child(2) {
+  color: #686868;
+  word-wrap: break-word;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: franklin-gothic-urw, sans-serif;
+  margin: 0;
 }

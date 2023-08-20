@@ -359,6 +359,41 @@ main>div:nth-child(2)>div:nth-child(1)>div>div>div:nth-child(1)>p:nth-child(3) {
   margin-top: 20px;
 }
 
+main>div:nth-child(3) {
+  margin: 100px 0;
+}
+
+main>div:nth-child(3)>div.default-content-wrapper {
+  position: relative;
+}
+
+#meet-a-tar-heel {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  padding-bottom: 47px;
+  font-size: 80px;
+  line-height: 60px;
+  color: #151515;
+  font-family: franklin-gothic-extra-compre, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#meet-a-tar-heel::after {
+  background-color: #4b9cd3;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 7px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 45px;
+}
+
 hr {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
