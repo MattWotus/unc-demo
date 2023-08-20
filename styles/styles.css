@@ -552,6 +552,40 @@ main>div:nth-child(6)>div>div>div>div:nth-child(1)>p:nth-child(3) {
   font-family: franklin-gothic-urw, sans-serif;
 }
 
+main>div:nth-child(7)>div.default-content-wrapper {
+  position: relative;
+  min-height: 100px;
+  padding: 100px 8.3333333333%;
+  text-align: center;
+}
+
+#university-calendar {
+  font-family: franklin-gothic-extra-compre, sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 2;
+  color: #151515;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+main>div:nth-child(7)>div.default-content-wrapper::after {
+  background-color: #4b9cd3;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 7px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 45px;
+}
+
 hr {
   margin-top: 1.5em;
   margin-bottom: 1.5em;

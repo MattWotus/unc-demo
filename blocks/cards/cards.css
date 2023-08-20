@@ -84,3 +84,128 @@ body>main>div:nth-child(3)>div.cards-wrapper>div>ul div.cards-card-body>p:nth-ch
   font-family: franklin-gothic-urw, sans-serif;
   margin: 0;
 }
+
+main>div:nth-child(7)>div.cards-wrapper {
+  padding-top: 100px;
+  margin-bottom: 7rem;
+}
+
+main>div:nth-child(7)>div.cards-wrapper>div>ul {
+  align-content: center;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  font-family: franklin-gothic-urw, sans-serif;
+  margin: 0 auto;
+  transition: opacity .1s ease-out, left .5s ease-out;
+  width: 100%;
+}
+
+main>div:nth-child(7)>div.cards-wrapper>div>ul>li {
+  width: 22%;
+  align-self: auto;
+  flex: 0 1 auto;
+  margin: 20px 1rem;
+  background: #fff;
+  border: 2px solid #efefef;
+  min-height: 25rem;
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+main>div:nth-child(7)>div.cards-wrapper>div>ul>li:hover {
+  border: 3px solid #007fae;
+}
+
+main>div:nth-child(7)>div.cards-wrapper>div>ul div.cards-card-image {
+  height: 12.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+main>div:nth-child(7)>div.cards-wrapper>div>ul div.cards-card-image>picture>img {
+  display: block;
+  height: 25rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center center;
+  object-position: center center;
+  position: relative;
+  transition: all .1s ease-out;
+  width: 100%;
+  aspect-ratio: inherit;
+}
+
+main>div:nth-child(7)>div.cards-wrapper>div>ul div.cards-card-body {
+  border: 1px solid #efefef;
+  border-width: 0 1px;
+  height: 12.5rem;
+  padding: 10px;
+  margin: 0;
+}
+
+main>div:nth-child(7)>div.cards-wrapper>div>ul div.cards-card-body>p:nth-child(1) {
+  background: #007fae;
+  color: #fff;
+  font-family: franklin-gothic-atf, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  height: 2.777777778em;
+  left: 0;
+  line-height: 1.111111111em;
+  padding: 0.333333333em 0 0;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+  transition: all .1s ease-out;
+  width: 2.777777778em;
+  z-index: 1;
+}
+
+main>div:nth-child(7)>div.cards-wrapper>div>ul div.cards-card-body>p:nth-child(2) {
+  color: #007fae;
+  font-family: franklin-gothic-atf, sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+}
+
+main>div:nth-child(7)>div.cards-wrapper>div>ul div.cards-card-body>p:nth-child(3) {
+  color: #007fae;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  display: -webkit-box;
+  font-family: franklin-gothic-urw, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+main>div:nth-child(7)>div.cards-wrapper>div>ul div.cards-card-body>p:nth-child(4) {
+  border-top: 1px solid #ccc;
+  font-weight: 500;
+  padding-top: 10px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  display: -webkit-box;
+  font-family: franklin-gothic-urw, sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  color: #3b3b3b;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
