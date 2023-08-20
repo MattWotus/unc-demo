@@ -273,11 +273,6 @@ main pre {
   white-space: pre;
 }
 
-a:any-link {
-  color: var(--link-color);
-  text-decoration: none;
-}
-
 a:hover {
   text-decoration: underline;
   color: var(--link-hover-color);
