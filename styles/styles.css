@@ -155,8 +155,9 @@ main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nt
   margin-left: 14.2857142857%;
   text-align: left;
   width: 28.5714285714%;
-  font-size: 16px;
-  font-weight: bold;
+  font-family: "franklin-gothic-urw-cond", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
   color: #fff;
   line-height: 56px;
 }
@@ -164,8 +165,9 @@ main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nt
 main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>ul>li:nth-child(2) {
   text-align: left;
   width: 28.5714285714%;
-  font-size: 16px;
-  font-weight: bold;
+  font-family: "franklin-gothic-urw-cond", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
   color: #fff;
   line-height: 56px;
 }
@@ -173,8 +175,9 @@ main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nt
 main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>ul>li:nth-child(3) {
   text-align: left;
   width: 28.5714285714%;
-  font-size: 16px;
-  font-weight: bold;
+  font-family: "franklin-gothic-urw-cond", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
   color: #fff;
   line-height: 56px;
 }
@@ -189,7 +192,7 @@ main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nt
 
 #meet-a-new-tar-heel {
   color: #fff;
-  font-family: playfair-display, Georgia, Times New Roman, serif;
+  font-family: "playfair-display", serif;
   font-size: 46px;
   font-style: normal;
   font-weight: 400;
@@ -202,7 +205,9 @@ main>div:nth-child(1)>div.default-content-wrapper>p {
 }
 
 main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(2)>div>p:nth-child(2) {
+  font-family: "franklin-gothic-urw", sans-serif;
   font-size: 18px;
+  margin-top: 0;
   margin-bottom: 20px;
   word-wrap: break-word;
   line-height: 26px;
@@ -285,8 +290,8 @@ a:hover {
 
 div.section.hero-container.columns-container>div.columns-wrapper>div>div>div>p.button-container>a {
   color: #13294b;
-  font-size: 14px;
-  font-family: franklin-gothic-urw-cond, sans-serif;
+  font-family: "franklin-gothic-urw-cond", sans-serif;
+  font-size: 19px;
   font-style: italic;
   font-weight: 700;
   line-height: 1;
