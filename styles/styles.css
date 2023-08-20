@@ -273,9 +273,14 @@ main pre {
   white-space: pre;
 }
 
+a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+
 a:hover {
-  text-decoration: underline;
-  color: var(--link-hover-color);
+  text-decoration: none;
+  color: inherit;
 }
 
 /* buttons */
