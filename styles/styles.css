@@ -129,7 +129,6 @@ blockquote {
 } */
 
 main>div.section.hero-container.columns-container>div.columns-wrapper>div>div>div>p:nth-child(1) {
-  margin: 0 8.3333333333%;
   position: absolute;
   align-items: center;
   color: #fff;
