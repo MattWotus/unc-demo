@@ -1,14 +1,80 @@
 footer {
-  padding: 2rem;
-  background-color: var(--overlay-background-color);
-  font-size: var(--body-font-size-s);
+  background-color: #4b9cd3;
+  clear: both;
+  float: left;
+  padding: 45px 0 0;
+  width: 100%;
 }
 
 footer .footer {
-  max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 
 footer .footer p {
   margin: 0;
+}
+
+footer>div>div {
+  float: left;
+  padding: 0 4.1666666667%;
+  position: relative;
+}
+
+footer>div>div>div>div>div:nth-child(1) {
+  gap: 0;
+}
+
+footer>div>div>div>div>div:nth-child(1)>div:nth-child(1) {
+  color: #151515;
+  float: left;
+  font-size: 14px;
+  width: 50%;
+  display: flex;
+  align-self: start;
+}
+
+footer>div>div>div>div>div:nth-child(1)>div:nth-child(1)>picture>img {
+  height: auto;
+  width: 273px;
+}
+
+footer>div>div>div>div>div:nth-child(1)>div:nth-child(2) {
+  float: left;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 40px;
+  justify-content: space-between;
+}
+
+footer>div>div>div>div>div:nth-child(1)>div:nth-child(2)>p {
+  float: left;
+  font-family: franklin-gothic-atf, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0 80px 15px 0;
+  width: 120px;
+  color: #151515;
+  font-size: 14px;
+}
+
+footer>div>div>div>div>div:nth-child(1)>div:nth-child(2)>p>a {
+  font-size: 13px !important;
+  color: #000;
+}
+
+footer>div>div>div>div>div:nth-child(1)>div:nth-child(2)>p>a:hover {
+  text-decoration: underline;
+}
+
+footer>div>div>div>div>div:nth-child(2)>div:nth-child(2) {
+  color: #000;
+  text-align: right;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 0 50px;
+  font-family: franklin-gothic-urw, sans-serif;
 }
