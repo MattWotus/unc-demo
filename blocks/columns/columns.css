@@ -29,6 +29,24 @@ div.section.hero-container.columns-container>div.columns-wrapper>div {
   top: 0;
 }
 
+main>div:nth-child(2) {
+  align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 100px 4.1666666667%;
+    max-width: 1600px;
+}
+
+main>div:nth-child(2)>div:nth-child(1) {
+      margin-right: 4.5454545455%;
+        padding: 5px 0 0;
+}
+
+main>div:nth-child(2)>div:nth-child(1)>div>div {
+  width: 300px;
+}
+
 
 
 @media (min-width: 900px) {

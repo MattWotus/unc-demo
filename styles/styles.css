@@ -315,6 +315,50 @@ main>div.section.hero-container.columns-container>div.default-content-wrapper>ul
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9InNvY2lhbGljb24tcGludGVyZXN0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIgoJIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTUgMTcuOSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTUgMTcuOSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxwYXRoIGlkPSJzb2NpYWxpY29uLXBpbnRlcmVzdC1wYXRoIiBkPSJNMTQuOSw1LjFjLTAuNC0yLjUtMi42LTQuNy02LjEtNS4xQzUuOS0wLjMsMi44LDAuOCwxLDMuMmMtMS41LDIuMi0xLjIsNC45LDAsNi4yCgljMC4zLDAuNCwwLjgsMC43LDEuMywwLjljMC4zLDAuMSwwLjUsMCwwLjUtMC4yYzAuMS0wLjMsMC4yLTAuNiwwLjMtMUMzLjEsOSwzLDguOCwyLjgsOC42QzEuNSw3LDIuMSwzLjUsNS4yLDIuMgoJYzIuNy0xLjEsNi45LTAuNCw3LjEsMy4yYzAuMSwxLjgtMC41LDQuMy0yLDUuM2MtMS43LDEuMS0zLjcsMC0zLjItMS41QzcuNSw3LjMsOC4yLDYsNy45LDUuMUM3LjUsMy41LDUuMiwzLjYsNC41LDUuNgoJQzQuMiw2LjQsNC4zLDcuMyw0LjYsOC4yYzAsMC4xLDAuMSwwLjEsMCwwLjJjLTEuNCw1LjYtMS42LDUuOS0xLjYsN2MwLDAuOCwwLDEuNiwwLjIsMi40YzAsMC4xLDAsMC4yLDAuMSwwLjIKCWMwLjEsMCwwLjEtMC4xLDAuMi0wLjFjMC40LTAuNSwwLjgtMS4xLDEuMi0xLjZjMC43LTEuMiwwLjgtMS44LDEuNS00LjNjMCwwLDAtMC4xLDAtMC4xYzAuMSwwLjEsMC4yLDAuMywwLjMsMC40CgljMS41LDEuNCw0LjcsMS4yLDYuNy0xQzE1LDksMTUuMSw2LjIsMTQuOSw1LjEiLz4KPC9zdmc+Cg==);
 }
 
+main>div:nth-child(2)>div:nth-child(1)>div>div>div:nth-child(1)>p:nth-child(1) {
+  text-align: left;
+  padding-bottom: 46px;
+  font-size: 80px;
+  line-height: 60px;
+  color: #151515;
+  font-family: "franklin-gothic-extra-compre", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+main>div:nth-child(2)>div:nth-child(1)>div>div>div:nth-child(1)>p:nth-child(1)::after {
+  right: auto;
+  background-color: #4b9cd3;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 7px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  width: 45px;
+}
+
+main>div:nth-child(2)>div:nth-child(1)>div>div>div:nth-child(1)>p:nth-child(2),
+main>div:nth-child(2)>div:nth-child(1)>div>div>div:nth-child(1)>p:nth-child(3) {
+  width: 300px;
+  text-align: left;
+  margin-top: 40px;
+  box-sizing: border-box;
+  color: #686868;
+  font-family: franklin-gothic-urw, sans-serif;
+  word-wrap: break-word;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+main>div:nth-child(2)>div:nth-child(1)>div>div>div:nth-child(1)>p:nth-child(3) {
+  margin-top: 20px;
+}
+
 hr {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
