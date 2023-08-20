@@ -394,6 +394,99 @@ main>div:nth-child(3)>div.default-content-wrapper {
   width: 45px;
 }
 
+main>div:nth-child(4) {
+  height: 680px;
+  margin: 0;
+  background-image: url(https://www.unc.edu/wp-content/uploads/2023/08/ballroomdancerTEST.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+main>div:nth-child(4)>div {
+  background: #fff;
+  bottom: 0;
+  margin: 0;
+  padding: 80px 4.1666666667% 70px;
+  position: absolute;
+  right: 0;
+  max-width: 360px;
+  z-index: 2;
+}
+
+main>div:nth-child(4)>div>div>div>div>p:nth-child(1) {
+  color: #151515;
+  float: left;
+  font-family: franklin-gothic-extra-compre, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0 0 30px;
+  padding: 0 0 35px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+main>div:nth-child(4)>div>div>div>div>p:nth-child(1)>a {
+  color: #151515;
+  text-decoration: underline;
+}
+
+main>div:nth-child(4)>div>div>div>div>p:nth-child(1)>a:hover {
+  color: #4b9cd3;
+  text-decoration: underline;
+}
+
+main>div:nth-child(4)>div>div>div>div>p:nth-child(1)>a::after {
+  background-color: #4b9cd3;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 7px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 45px;
+}
+
+
+main>div:nth-child(4)>div>div>div>div>p:nth-child(2) {
+  font-family: playfair-display, Georgia, Times New Roman, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  margin: 0 0 20px;
+  text-align: center;
+  text-transform: none;
+}
+
+main>div:nth-child(4)>div>div>div>div>p:nth-child(3) {
+  color: #686868;
+  text-align: center;
+  margin: 0 0 20px;
+  word-wrap: break-word;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: franklin-gothic-urw, sans-serif;
+}
+
+main>div:nth-child(4)>div>div>div>div>p:nth-child(3)>a {
+  text-decoration: underline;
+  color: #3b7ca7;
+  transition: color .25s ease-in-out;
+  font-family: franklin-gothic-urw, sans-serif;
+  font-weight: 700;
+}
+
 hr {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
