@@ -326,3 +326,50 @@ main>div:nth-child(5)>div.columns-wrapper>div>div:nth-child(2)>div:nth-child(2)>
     order: unset;
   }
 }
+
+@media (min-width: 500px) {
+  div.section.hero-container.columns-container>div.columns-wrapper>div {
+    margin-top: -80px;
+    background: linear-gradient(180deg, hsla(0, 0%, 8%, 0) 0, #151515 19%, #151515);
+    left: 0;
+    padding: 120px 8.3333333333% 40px;
+    position: relative;
+    width: 100%;
+    background-color: #4b9cd3;
+    padding-bottom: 20px;
+    padding-top: 80px;
+    height: 162px;
+  }
+
+  main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1) {
+    display: none;
+  }
+
+  main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(2) {
+    padding: 0;
+  }
+
+  #meet-a-new-tar-heel {
+    font-size: 36px;
+    margin-top: 0;
+  }
+
+  main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(2)>div>p:nth-child(2) {
+    display: none;
+  }
+
+  div.section.hero-container.columns-container>div.columns-wrapper>div>div>div>p.button-container>a {
+    color: #fff;
+  }
+
+  main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(3)>div {
+    padding-left: 41.664px;
+  }
+
+  main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(3)>div>ul>li {
+    display: inline-block;
+    line-height: 64px;
+    margin-right: 4%;
+    white-space: nowrap;
+  }
+}

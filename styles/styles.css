@@ -834,3 +834,9 @@ main img {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+
+@media (min-width: 500px) {
+  main>div.section.hero-container.columns-container>div.default-content-wrapper {
+    display: none;
+  }
+}
