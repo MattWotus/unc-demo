@@ -852,14 +852,28 @@ main .section.highlight {
     right: 0;
   }
 
-    main>div:nth-child(2)>div:nth-child(1)>div>div>div:nth-child(1)>p:nth-child(2),
-    main>div:nth-child(2)>div:nth-child(1)>div>div>div:nth-child(1)>p:nth-child(3) {
-      margin: 18px auto;
-        text-align: center;
-        width: 100%;
-    }
+  main>div:nth-child(2)>div:nth-child(1)>div>div>div:nth-child(1)>p:nth-child(2),
+  main>div:nth-child(2)>div:nth-child(1)>div>div>div:nth-child(1)>p:nth-child(3) {
+    margin: 18px auto;
+    text-align: center;
+    width: 100%;
+  }
 
-        main>div:nth-child(2)>div:nth-child(1)>div>div>div:nth-child(1)>p:nth-child(3) {
-          margin: 0;
-        }
+  main>div:nth-child(2)>div:nth-child(1)>div>div>div:nth-child(1)>p:nth-child(3) {
+    margin: 0;
+  }
+
+  main>div:nth-child(3) {
+    margin: 50px 0;
+  }
+
+  main>div:nth-child(3)>div.default-content-wrapper {
+    padding: 0 8.3333333333% 24px;
+  }
+
+  #meet-a-tar-heel {
+    font-size: 48px;
+    line-height: 38px;
+    padding: 0;
+  }
 }
