@@ -78,3 +78,19 @@ footer>div>div>div>div>div:nth-child(2)>div:nth-child(2) {
   margin: 0 0 50px;
   font-family: franklin-gothic-urw, sans-serif;
 }
+
+@media (max-width: 500px) {
+  footer>div>div>div>div>div:nth-child(1)>div:nth-child(1) {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  footer>div>div>div>div>div:nth-child(2)>div:nth-child(1) {
+    margin-bottom: 40px;
+  }
+
+  footer>div>div>div>div>div:nth-child(2)>div:nth-child(2) {
+    text-align: left;
+    margin-bottom: 90px;
+  }
+}

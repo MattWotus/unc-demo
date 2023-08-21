@@ -69,6 +69,7 @@ body {
   color: var(--text-color);
   background-color: var(--background-color);
   display: none;
+  overflow-x: hidden;
 }
 
 body.appear {
@@ -554,7 +555,6 @@ main>div:nth-child(6)>div>div>div>div:nth-child(1)>p:nth-child(3) {
 
 main>div:nth-child(7)>div.default-content-wrapper {
   position: relative;
-  min-height: 100px;
   padding: 100px 8.3333333333%;
   text-align: center;
 }
@@ -954,6 +954,5 @@ main .section.highlight {
 
   main>div:nth-child(7)>div.default-content-wrapper {
     padding: 50px 4.1666666667%;
-    min-height: unset;
   }
 }
