@@ -924,4 +924,31 @@ main .section.highlight {
     line-height: 38px;
     padding: 0 8.3333333333% 24px;
   }
+
+  main>div:nth-child(6) {
+    margin: 50px 0;
+  }
+
+  main>div:nth-child(6)>div>div>div>div:nth-child(1) {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 0;
+    position: static;
+  }
+
+  main>div:nth-child(6)>div>div>div>div:nth-child(1)>p:nth-child(1) {
+    font-size: 48px;
+    line-height: 38px;
+    padding-bottom: 24px;
+  }
+
+    main>div:nth-child(6)>div>div>div>div:nth-child(1)>p:nth-child(2) {
+      margin: 20px auto !important;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+        main>div:nth-child(6)>div>div>div>div:nth-child(1)>p:nth-child(3) {
+          display: none;
+        }
 }

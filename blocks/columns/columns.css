@@ -528,4 +528,7 @@ main>div:nth-child(5)>div.columns-wrapper>div>div:nth-child(2)>div:nth-child(2)>
     margin-bottom: 0;
   }
 
+  .columns>div>.columns-img-col {
+    order: 1;
+  }
 }
