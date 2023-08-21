@@ -880,7 +880,7 @@ main .section.highlight {
   main>div:nth-child(4) {
     height: auto;
     min-height: 180px;
-    margin-bottom: 0;
+    margin-bottom: 50px;
   }
 
   main>div:nth-child(4)>div {
@@ -917,5 +917,11 @@ main .section.highlight {
     line-height: 30px;
     padding: 0 4.5454545455%;
     margin: 0 0 10px;
+  }
+
+  #latest-news-from-carolina {
+    font-size: 48px;
+    line-height: 38px;
+    padding: 0 8.3333333333% 24px;
   }
 }
