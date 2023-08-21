@@ -63,7 +63,7 @@ main .hero img {
   height: 100%;
 }
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   main .hero-container {
     padding-top: 64px;
   }

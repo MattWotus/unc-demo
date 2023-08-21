@@ -327,7 +327,7 @@ main>div:nth-child(5)>div.columns-wrapper>div>div:nth-child(2)>div:nth-child(2)>
   }
 }
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   div.section.hero-container.columns-container>div.columns-wrapper>div {
     margin-top: -80px;
     background: linear-gradient(180deg, hsla(0, 0%, 8%, 0) 0, #151515 19%, #151515);
