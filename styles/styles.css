@@ -942,13 +942,18 @@ main .section.highlight {
     padding-bottom: 24px;
   }
 
-    main>div:nth-child(6)>div>div>div>div:nth-child(1)>p:nth-child(2) {
-      margin: 20px auto !important;
-        font-size: 36px;
-        line-height: 36px;
-    }
+  main>div:nth-child(6)>div>div>div>div:nth-child(1)>p:nth-child(2) {
+    margin: 20px auto !important;
+    font-size: 36px;
+    line-height: 36px;
+  }
 
-        main>div:nth-child(6)>div>div>div>div:nth-child(1)>p:nth-child(3) {
-          display: none;
-        }
+  main>div:nth-child(6)>div>div>div>div:nth-child(1)>p:nth-child(3) {
+    display: none;
+  }
+
+  main>div:nth-child(7)>div.default-content-wrapper {
+    padding: 50px 4.1666666667%;
+    min-height: unset;
+  }
 }

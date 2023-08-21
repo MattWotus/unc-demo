@@ -222,4 +222,22 @@ main>div:nth-child(7)>div.cards-wrapper>div>ul div.cards-card-body>p:nth-child(4
     padding: 0;
     width: 83.3333333333%;
   }
+
+  main>div:nth-child(7)>div.cards-wrapper {
+    padding-top: 50px;
+  }
+
+  main>div:nth-child(7)>div.cards-wrapper>div>ul>li {
+    background: #fff;
+    border: 2px solid #efefef;
+    margin: 20px auto;
+    min-height: 25rem;
+    position: relative;
+    width: 90%;
+  }
+
+  main>div:nth-child(7)>div.cards-wrapper>div>ul div.cards-card-body>p:nth-child(2) {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
 }
