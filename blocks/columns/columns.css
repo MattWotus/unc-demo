@@ -244,7 +244,7 @@ main>div:nth-child(5)>div.columns-wrapper>div>div:nth-child(1)>div:nth-child(2) 
   font-weight: 700;
   line-height: 24px;
   text-transform: uppercase;
-  max-height: 24px;
+  max-height: 72px;
 }
 
 main>div:nth-child(5)>div.columns-wrapper>div>div:nth-child(3)>div:nth-child(2) {
