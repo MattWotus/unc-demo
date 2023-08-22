@@ -201,6 +201,7 @@ main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nt
   border-top: none;
   border-bottom: 1px solid #fff !important;
   height: 64px !important;
+  z-index: 999;
 }
 
 main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>ul:nth-child(3)>li:nth-child(1) {
@@ -234,6 +235,7 @@ main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nt
   border-top: 3px solid #151515;
   color: #151515;
   line-height: 58px;
+  z-index: 999;
 }
 
 main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>p:nth-child(4) {
