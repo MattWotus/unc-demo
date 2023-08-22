@@ -191,7 +191,7 @@ main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nt
   padding: 0 60px 20px;
 }
 
-#meet-a-new-tar-heel {
+#the-heels-are-home {
   color: #fff;
   font-family: "playfair-display", serif;
   font-size: 46px;
@@ -402,7 +402,7 @@ main>div:nth-child(3)>div.default-content-wrapper {
 main>div:nth-child(4) {
   height: 680px;
   margin-bottom: 100px;
-  background-image: url(https://www.unc.edu/wp-content/uploads/2023/08/ballroomdancerTEST.png);
+  background-image: url(https://www.unc.edu/wp-content/uploads/2023/08/OldWellEssayFinalPhoto.png);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -490,6 +490,11 @@ main>div:nth-child(4)>div>div>div>div>p:nth-child(3)>a {
   transition: color .25s ease-in-out;
   font-family: franklin-gothic-urw, sans-serif;
   font-weight: 700;
+}
+
+main>div:nth-child(4)>div>div>div>div>p:nth-child(3)>a:hover {
+  color: #151515;
+  text-decoration: none;
 }
 
 main>div:nth-child(6)>div {
@@ -850,6 +855,11 @@ main .section.highlight {
 
   main>div:nth-child(2)>div:nth-child(1)>div>div>div:nth-child(1)>p:nth-child(1)::after {
     right: 0;
+  }
+
+  #the-heels-are-home {
+    font-size: 36px;
+    margin-top: 0;
   }
 
   main>div:nth-child(2)>div:nth-child(1)>div>div>div:nth-child(1)>p:nth-child(2),
