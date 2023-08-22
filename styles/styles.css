@@ -264,6 +264,7 @@ main>div.section.hero-container.columns-container>div.default-content-wrapper>ul
   color: #fff;
   float: left;
   text-indent: -9999em;
+  cursor: pointer;
 }
 
 main>div.section.hero-container.columns-container>div.default-content-wrapper>ul>li:nth-child(1) {
@@ -638,6 +639,7 @@ footer>div>div>div>div>div:nth-child(2)>div:nth-child(1)>ul>li {
   color: #fff;
   float: left;
   text-indent: -9999em;
+  cursor: pointer;
 }
 
 footer>div>div>div>div>div:nth-child(2)>div:nth-child(1)>ul>li:nth-child(1) {
