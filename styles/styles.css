@@ -152,6 +152,10 @@ main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nt
   height: auto !important;
 }
 
+main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>ul>li {
+  cursor: pointer;
+}
+
 main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>ul>li:nth-child(1) {
   margin-left: 14.2857142857%;
   text-align: left;
@@ -185,6 +189,59 @@ main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nt
 
 main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>ul>li:hover {
   color: #151515;
+}
+
+main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>ul:nth-child(3) {
+  display: none;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #4b9cd3;
+  border-top: none;
+  border-bottom: 1px solid #fff !important;
+  height: 64px !important;
+}
+
+main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>ul:nth-child(3)>li:nth-child(1) {
+  width: 74.77px;
+  margin-left: 120px;
+}
+
+main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>ul:nth-child(3)>li:nth-child(1):hover {
+  border-top: 3px solid #151515;
+  color: #151515;
+  line-height: 58px;
+}
+
+main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>ul:nth-child(3)>li:nth-child(2) {
+  width: 71.53px;
+  margin-left: 45px;
+}
+
+main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>ul:nth-child(3)>li:nth-child(2):hover {
+  border-top: 3px solid #151515;
+  color: #151515;
+  line-height: 58px;
+}
+
+main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>ul:nth-child(3)>li:nth-child(3) {
+  width: 60.21px;
+  margin-left: 49px;
+}
+
+main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>ul:nth-child(3)>li:nth-child(3):hover {
+  border-top: 3px solid #151515;
+  color: #151515;
+  line-height: 58px;
+}
+
+main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>p:nth-child(4) {
+  display: none;
+  position: fixed;
+  top: 2%;
+  left: 32.5%;
+  margin: 0;
 }
 
 main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(2) {

@@ -32,3 +32,14 @@ document.querySelector("main > div.section.hero-container.columns-container > di
     "_blank"
   );
 })
+
+window.addEventListener("scroll", function() {
+  var scrollPosition = window.scrollY;
+  if(scrollPosition >= 177 && window.innerWidth == 1440) {
+    document.querySelector("main > div.section.hero-container.columns-container > div.columns-wrapper > div > div:nth-child(1) > div > ul:nth-child(3)").style.display = "flex";
+    this.document.querySelector("main > div.section.hero-container.columns-container > div.columns-wrapper > div > div:nth-child(1) > div > p:nth-child(4)").style.display = "block";
+  } else {
+    document.querySelector("main > div.section.hero-container.columns-container > div.columns-wrapper > div > div:nth-child(1) > div > ul:nth-child(3)").style.display = "none";
+    this.document.querySelector("main > div.section.hero-container.columns-container > div.columns-wrapper > div > div:nth-child(1) > div > p:nth-child(4)").style.display = "none";
+  }
+})
