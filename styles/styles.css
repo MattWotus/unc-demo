@@ -244,6 +244,7 @@ main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nt
   top: 2%;
   left: 32.5%;
   margin: 0;
+  z-index: 999;
 }
 
 main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(2) {
