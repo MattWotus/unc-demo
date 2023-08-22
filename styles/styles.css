@@ -273,6 +273,10 @@ main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nt
   line-height: 26px;
 }
 
+main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(2)>div>p.button-container {
+  line-height: 25px;
+}
+
 main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(3)>div {
   height: 80px;
   left: 0;
