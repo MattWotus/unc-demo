@@ -1,6 +1,6 @@
 document.querySelector("main > div.section.hero-container.columns-container > div.default-content-wrapper > ul > li:nth-child(1)").addEventListener("click", function() {
     window.open(
-    "https://www.facebook.com/unc-chapelhill/",
+    "https://www.facebook.com/uncchapelhill/",
     "_blank"
   );
 })

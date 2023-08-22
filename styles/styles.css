@@ -241,7 +241,7 @@ main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nt
 main>div.section.hero-container.columns-container>div.columns-wrapper>div>div:nth-child(1)>div>p:nth-child(4) {
   display: none;
   position: fixed;
-  top: 1.5%;
+  top: 2%;
   left: 32.5%;
   margin: 0;
   z-index: 999;
