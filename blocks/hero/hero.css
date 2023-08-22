@@ -64,10 +64,6 @@ main .hero img {
 }
 
 @media (max-width: 500px) {
-  main .hero-container {
-    padding-top: 64px;
-  }
-
   main .hero {
     min-height: unset;
     height: unset;
