@@ -467,17 +467,15 @@ main>div:nth-child(3)>div.default-content-wrapper {
 main>div:nth-child(4) {
   height: 680px;
   margin-bottom: 100px;
-  background-image: url(https://www.unc.edu/wp-content/uploads/2023/08/OldWellEssayFinalPhoto.png);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  float: left;
   position: relative;
-  width: 100%;
-  z-index: 1;
 }
 
-main>div:nth-child(4)>div {
+main>div:nth-child(4)>div:nth-child(1)>div>div>div>picture>img {
+  height: 680px;
+  object-fit: cover;
+}
+
+main>div:nth-child(4)>div:nth-child(2) {
   background: #fff;
   bottom: 0;
   margin: 0;
@@ -814,42 +812,6 @@ div.section.hero-container.columns-container>div.columns-wrapper>div>div>div>p.b
   text-decoration: underline;
 }
 
-/* a.button:any-link, button {
-  font-family: var(--body-font-family);
-  display: inline-block;
-  box-sizing: border-box;
-  text-decoration: none;
-  border: 2px solid transparent;
-  padding: 5px 30px;
-  text-align: center;
-  font-style: normal;
-  font-weight: 600;
-  cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
-  margin: 16px 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  border-radius: 30px;
-}
-
-a.button:hover, a.button:focus, button:hover, button:focus  {
-  background-color: var(--link-hover-color);
-  cursor: pointer;
-}
-
-button:disabled, button:disabled:hover {
-  background-color: var(--overlay-background-color);
-  cursor: unset;
-}
-
-a.button.secondary, button.secondary {
-  background-color: unset;
-  border: 2px solid currentcolor;
-  color: var(--text-color)
-} */
-
 main input {
   font-size: 1.25rem;
   width: 100%;
@@ -959,8 +921,12 @@ main .section.highlight {
     margin-bottom: 50px;
   }
 
-  main>div:nth-child(4)>div {
-    margin: 180px 0 0;
+    main>div:nth-child(4)>div:nth-child(1)>div>div>div>picture>img {
+      height: 180px;
+    }
+
+  main>div:nth-child(4)>div:nth-child(2) {
+    margin: 0;
     padding: 22px 4.1666666667% 25px;
     left: 0;
     position: relative;

@@ -5,19 +5,9 @@ main .hero-container>div {
 }
 
 main .hero-container {
-  padding: 0;
-}
-
-main .hero {
-  background-image: url(https://www.unc.edu/wp-content/uploads/2023/08/013723_old_well_first_sip014-scaled.jpg);
+  width: 100vw;
   height: 100vh;
-  min-height: 675px;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
-  overflow: hidden;
-  position: relative;
+  padding: 0;
 }
 
 main .hero::before {
@@ -64,9 +54,8 @@ main .hero img {
 }
 
 @media (max-width: 500px) {
-  main .hero {
-    min-height: unset;
-    height: unset;
+  main .hero-container {
+    height: 73.5vh;
   }
 
   main .hero::before {
@@ -75,5 +64,9 @@ main .hero img {
 
   main .hero::after {
     padding-bottom: 70.3125%;
+  }
+
+  main .hero picture {
+    bottom: unset;
   }
 }
